@@ -1,0 +1,34 @@
+*, *::before, *::after{
+  margin: 0;
+  padding:0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+  --gray-hue: 0;
+  --red-hue:hsl(var(--gray-hue), 80%, 64%);
+  --color-gray-100: hsl(var(--gray-hue), 0%, 34%);
+  --color-gray-200: hsl(var(--gray-hue), 0%, 80%);
+  --color-gray-300: hsl(var(--gray-hue), 0%, 95%);
+  --color-blue: #003580;
+  --color-light-blue: #0071c2;
+  --container-width: 1024px;
+
+  --transition: all 500ms ease;
+  --transitionTxt: all .2s ease ;
+}
+
+/*GENERAL STYLES*/
+body{
+  overflow-x: hidden;
+  background: var(--color-gray-300);
+}
+.container{
+  width: var(--container-width);
+  max-width: 1920px;
+  margin-inline: auto;
+}
