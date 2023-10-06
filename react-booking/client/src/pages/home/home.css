@@ -5,3 +5,7 @@
     align-items: center;
     gap: 30px;
 }
+.homeTitle{
+    width: var(--container-width);
+    font-size: 20px;
+}

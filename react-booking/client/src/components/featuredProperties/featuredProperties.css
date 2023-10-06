@@ -1,0 +1,34 @@
+.fp{
+    width: 100%;
+    max-width: var(--container-width);
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.fpItem{
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.fpImage{
+    width: 200px;
+}
+.fpName{
+    font-weight: bold;
+}
+.fpPrice{
+    font-weight: 500;
+}
+.fpRating>button{
+    padding: 5px;
+    background-color: var(--color-blue);
+    color: #fff;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.fpRating>span{
+    font-size: 14px;
+}
